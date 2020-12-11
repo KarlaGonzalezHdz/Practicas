@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <header><!-- Cabecera de la página -->
+        <nav>
+            <a href="#"> Inicio</a>
+        </nav>
+    </header>
+    <!-- Cuerpo de la pagina -->
+    <form action="registrar.php" method="post">
+      Seleccione uno o varios colores (Presione Ctrl para seleccionar varios colores) <br>
+      <select name="colores[]" size="4" multiple>
+          <option value="1">Rojo</option>
+          <option value="2">Verde</option>
+          <option value="3">Azul</option>
+          <option value="4">Amarillo</option>
+          <option value="5">Blanco</option>
+          <option value="6">Negro</option>
+          <option value="7">Naranja</option>
+          <option value="8">Violeta</option>
+      </select> 
+      <br>
+      <input type="submit" value="Enviar"> 
+    </form>
+    <hr>
+    <footer> <!-- Pie de página -->
+        <p>&copy; 2017 | Derechos reservados</p>
+        <p>Facultad de Ingenieria Mecanica y Electrica</p>
+    </footer>
+</body>
+</html>

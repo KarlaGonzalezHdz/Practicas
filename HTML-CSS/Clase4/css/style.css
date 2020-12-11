@@ -1,0 +1,77 @@
+.div1
+{
+    padding: 5px;
+    height: 30px;
+    width: 100%;
+    background-color: red;
+    color: white;
+}
+.div1 h1{
+    margin: 0px;
+}
+.div2
+{
+    margin: 40px 10% 40px 10%;
+}
+.div3
+{
+    display: flex;
+    align-items: center;
+    background-color: rgb(34, 137, 255);
+    height: 60px;
+color: white;
+}
+.div3 h2
+{
+    margin: 40px 10% 40px 10%;
+}
+body
+{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenido{
+    margin: 40px 10% 40px 10%;
+}
+.banner
+{
+    background-image: url("../images/img0.jpg");
+    height: 150px;
+    width: 100%;
+}
+.marca
+{
+    float: left;
+    margin-left: 10px;
+}
+.nav
+{
+    margin-top: 5px;
+    float: left;
+    margin-left: 5px;
+    
+}
+.nav a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.nav a:hover
+{
+    color: rgb(33, 238, 6);
+    font-size: large;
+}
+footer
+{
+    margin: 40px 10% 40px 10%;
+}
+.pie
+{
+    float: left;
+    background-color: red;
+    color: white;
+    margin-bottom: 0px;
+    width: 100%;
+}

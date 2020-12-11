@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="widtd=device-widtd, initial-scale=1.0">
+    <title>Página de noticias</title>
+    <!--  °°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°° INICIO CSS °°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°° -->
+    <style>
+        table {
+            width: 100%;
+            height: 100%;
+            padding-left: 10%;
+            padding-right: 10%;
+
+        }
+
+        td {
+            padding: 0;
+            margin: 0;
+            background-color: #F4ECEC;
+
+        }
+
+        tr {
+            padding-left: 10%;
+            padding-right: 10%;
+
+
+        }
+
+        #barra {
+            width: 100%;
+            height: 100px;
+
+            position: relative;
+        }
+
+        .subbarra {
+            display: inline;
+        }
+
+        .ls {
+            font-size: 2em;
+            text-align: center;
+            position: relative;
+            top: -1.4em;
+            bottom: 1em;
+        }
+
+        .lf {
+
+            position: relative;
+            top: -3.0em;
+        }
+
+        .lz {
+            position: relative;
+            top: -1.3em;
+        }
+
+        .lr {
+            position: relative;
+            top: -2.1em;
+        }
+
+        .lse {
+            position: relative;
+            top: -.9em
+        }
+
+
+        .EO {
+            padding-left: 1em;
+        }
+
+        .bi {
+            padding-top: 1em;
+        }
+
+        .pimg {
+            padding-left: 7%;
+        }
+
+        nav {
+            float: left;
+
+        }
+
+        nav ul {
+            list-style: none;
+            overflow: hidden;
+
+        }
+
+        nav ul li {
+            float: left;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+        }
+
+        nav ul li a {
+            display: block;
+            padding: 20px;
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+        }
+
+        nav ul li:hover {
+            background: #1a2ea0d3;
+        }
+
+        #navegador {
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+
+        .alerta,
+        .nacional,
+        .internacional {
+            color: red;
+        }
+
+        .local,
+        .ligamx {
+            color: blue;
+        }
+
+        .tiempo {
+            color: gray;
+        }
+
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+    <!-- °°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°° FIN DE CSS °°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°° -->
+</head>
+
+<body>
+    <!-- *********************************BARRA DE NAVEGACIÓN***********************************-->
+    <div id="barra">
+        <svg width="3em" height="100%" viewBox="0 0 16 16" class="bi bi-list subbarra" fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd"
+                d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+        </svg>
+        <p class="subbarra ls EO">Junio 15,2020</p>
+        <svg class="subbarra EO" width="1em" height="100%" viewBox="0 0 16 16" class="bi bi-sun" fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg">
+            <path d="M3.5 8a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0z" />
+            <path fill-rule="evenodd"
+                d="M8.202.28a.25.25 0 0 0-.404 0l-.91 1.255a.25.25 0 0 1-.334.067L5.232.79a.25.25 0 0 0-.374.155l-.36 1.508a.25.25 0 0 1-.282.19l-1.532-.245a.25.25 0 0 0-.286.286l.244 1.532a.25.25 0 0 1-.189.282l-1.509.36a.25.25 0 0 0-.154.374l.812 1.322a.25.25 0 0 1-.067.333l-1.256.91a.25.25 0 0 0 0 .405l1.256.91a.25.25 0 0 1 .067.334L.79 10.768a.25.25 0 0 0 .154.374l1.51.36a.25.25 0 0 1 .188.282l-.244 1.532a.25.25 0 0 0 .286.286l1.532-.244a.25.25 0 0 1 .282.189l.36 1.508a.25.25 0 0 0 .374.155l1.322-.812a.25.25 0 0 1 .333.067l.91 1.256a.25.25 0 0 0 .405 0l.91-1.256a.25.25 0 0 1 .334-.067l1.322.812a.25.25 0 0 0 .374-.155l.36-1.508a.25.25 0 0 1 .282-.19l1.532.245a.25.25 0 0 0 .286-.286l-.244-1.532a.25.25 0 0 1 .189-.282l1.508-.36a.25.25 0 0 0 .155-.374l-.812-1.322a.25.25 0 0 1 .067-.333l1.256-.91a.25.25 0 0 0 0-.405l-1.256-.91a.25.25 0 0 1-.067-.334l.812-1.322a.25.25 0 0 0-.155-.374l-1.508-.36a.25.25 0 0 1-.19-.282l.245-1.532a.25.25 0 0 0-.286-.286l-1.532.244a.25.25 0 0 1-.282-.189l-.36-1.508a.25.25 0 0 0-.374-.155l-1.322.812a.25.25 0 0 1-.333-.067L8.203.28zM8 2.5a5.5 5.5 0 1 0 0 11 5.5 5.5 0 0 0 0-11z" />
+        </svg>
+        <p class="subbarra ls E0">25 °C</p>
+        <img class="EO lz pimg" src="images/img14.PNG" alt="" srcset="" width="30%" height="80%" />
+        <div class="dropdown lf subbarra">
+            <select name="select">
+                <option value="value1" selected>
+                    Edicion Monterrey</option>
+                <option value="value2">Monterrey</option>
+                <option value="value3">CDMX</option>
+                <option value="value4">Laguna</option>
+                <option value="value5">Bajio</option>
+                <option value="value6">Guadalajara</option>
+                <option value="value7">Puebla</option>
+                <option value="value8">Durango</option>
+            </select>
+
+        </div>
+        <div class="pimg subbarra">
+            <a href="https://www.facebook.com/multimediostv" target="_blank"><img class="EO lr" src="images/img15.png"
+                    alt="" width="50px" height="50px"></a>
+            <a href="https://twitter.com/multimediostv" target="_blank"><img class="EO lr" src="images/img16.jpg" alt=""
+                    width="50px" height="50px"></a>
+            <a href="https://www.youtube.com/user/multimedios" target="_blank"><img class="EO lr "
+                    src="images/img17.png" alt="" width="50px" height="50px"></a>
+            <a href="http://instagram.com/multimediostv" target="_blank"><img class="EO lr " src="images/img18.jpg"
+                    alt="" width="50px" height="50px"></a>
+        </div>
+        <svg width="2em" height="100%" viewBox="0 0 16 16" class="bi bi-search lse" fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd"
+                d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z" />
+            <path fill-rule="evenodd"
+                d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z" />
+        </svg>
+    </div>
+    <!-- ********************************* FIN BARRA DE NAVEGACIÓN***********************************-->
+    <hr>
+    <!-- ******************************* INICIO SUBBARRAS DE ACCIONES ******************************* -->
+    <div id="navegador">
+        <nav>
+            <ul>
+                <li><a href="https://mty.telediario.mx/">Telediario</a></li>
+                <li><a href="https://mty.telediario.mx/local">Local</a></li>
+                <li><a href="https://mty.telediario.mx/en-alerta">En Alerta</a></li>
+                <li><a href="https://mty.telediario.mx/covid19">Covid 19</a></li>
+                <li><a href="https://mty.telediario.mx/tras-los-famosos">Tras los famosos</a></li>
+                <li><a href="https://mty.telediario.mx/tendencias">Trending</a></li>
+                <li><a href="https://mty.telediario.mx/nacional">Nacional</a></li>
+                <li><a href="https://mty.telediario.mx/internacional">Internacional</a></li>
+                <li><a href="https://mty.telediario.mx/deportes">Deportes</a></li>
+                <li><a href="https://www.multimedios.com/television">Television</a></li>
+                <li><a href="https://www.multimedios.com/radio">Radio</a></li>
+                <li><a href="https://mty.telediario.mx/video/monterrey-tv-en-vivo">TV en VIVO</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- ******************************* FIN SUBBARRAS DE ACCIONES ******************************* -->
+    <!-- ****************************  INICIO DE TABLA **********************************************-->
+    <table align="center" cellpadding="5" cellspacing="15">
+        <tbody>
+            <tr>
+                <td rowspan="4" width="40%" height="50px">
+                    <h1>TELEDIARIO</h1>
+                    <img src="images/img1.jpg" alt="" srcset="" width="100%" height="550px">
+                    <p class="tiempo"><b class="local">Local</b> | Hace 3 horas</p>
+                    <a href="https://www.multimedios.com/local/sube-230-la-cifra-de-muertos-por-covid-19-en-nl"
+                        target="_blank" rel="noopener noreferrer">
+                        <h2>Sube a 230 la cifra de muertos por Covid-19 en NL.</h2>
+                    </a>
+                    <p>Hasta el momento las autoridades de salud han confirmado 5 mil 902 casos positivos en la entidad.
+                    </p>
+                    <ul>
+                        <a href="https://mty.telediario.mx/local/sube-26-la-cifra-de-muertos-por-covid-19-en-nl"
+                            target="_blank" rel="noopener noreferrer">
+                            <li>Suben a 26 la cifra de muertos por Covid-19 en NL.</li>
+                        </a>
+                        <a href="https://mty.telediario.mx/local/sube-51-la-cifra-de-muertos-por-covid-19-en-nl"
+                            target="_blank" rel="noopener noreferrer"></a>
+                        <li>Suben a 51 la cifra de muertos por Covid-19 en NL.</li></a>
+                        <a href="https://mty.telediario.mx/local/sube-46-la-cifra-de-muertos-por-covid-19-en-nl"
+                            target="_blank" rel="noopener noreferrer">
+                            <li>Suben a 46 la cifra de muertos por Covid-19 en NL.</li>
+                        </a>
+                        <a href="https://mty.telediario.mx/local/sube-26-la-cifra-de-muertos-por-covid-19-en-nl"
+                            target="_blank" rel="noopener noreferrer"></a>
+                        <li>Suben a 26 la cifra de muertos por Covid-19 en NL.</li></a>
+
+                    </ul>
+                </td>
+                <td rowspan="2" width="25%">
+
+                    <img src="images/img2.jpeg" alt="" srcset="" width="100%" height="200px">
+                    <p class="tiempo"><b class="local">Local</b> | Hace una hora</p>
+                    <a href="https://www.multimedios.com/local/reapertura-se-cancelara-si-mas-de-tres-indicadores-marcan-rojo-en-nl-secretaria-de-salud"
+                        target="_blank" rel="noopener noreferrer">
+                        <h3>Reapertura se cancelará si más de tres indicicadores marcan rojo en NL: Secretaria de Salud
+                        </h3>
+                    </a>
+                    <p>Amalia Becerra Aquino, subdirectora del Hospital Metropolitano informó que hasta el momento nueve
+                        indicadores aparecen en verde o amarillo y uno más en rojo.</p>
+                </td>
+                <td colspan="2" width="25%">
+                    <img src="images/img3.png" alt="" srcset="" width="100%" height="300px">
+                </td>
+            </tr>
+            <tr>
+                <td id="hola" width="10%">
+                    <img src="images/img6.jpg" alt="" srcset="" width="100%" height="150px">
+                </td>
+                <td>
+                    <p class="tiempo"> <b class="nacional">NACIONAL</b> | Hace 20 minutos</p>
+                    <a href="https://mty.telediario.mx/nacional/reportan-brote-de-covid-19-en-policia-y-ayuntamiento-de-acapulco"
+                        target="_blank" rel="noopener noreferrer">
+                        <h4>Reportan brote de covid-19 en Policia y ayuntamiento</h4>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2" width="25%">
+                    <img src="images/img4.jpg" alt="" srcset="" width="100%" height="200px">
+                    <p class="tiempo"> <b class="alerta">EN ALERTA</b> | Hace 37 minutos</p>
+                    <a href="https://mty.telediario.mx/en-alerta/muere-joven-de-18-anos-tras-partir-en-dos-su-auto-al-chocar-contra-puente-peatonal-en-san-pedro"
+                        target="_blank" rel="noopener noreferrer">
+                        <h3>Muere joven de 18 años tras partir en dos su auto al chocar contra puente peatonal en San
+                            Pedro
+                        </h3>
+                    </a>
+                    <p>A través de las redes sociales, algunas de sus amistades y compañeras de escuela expresaron su
+                        consternación ante la fatalidad.</p>
+
+                </td>
+                <td width="10%">
+                    <img src="images/img5.jpg" alt="" srcset="" width="100%" height="150px">
+                </td>
+                <td>
+                    <p class="tiempo"> <b class="nacional">NACIONAL</b> | Hace 17 minutos</p>
+                    <a href="https://mty.telediario.mx/nacional/oms-actuo-tarde-ante-covid-19-debemos-fortalecerla-embajador-de-mexico-ante-la-onu"
+                        target="_blank" rel="noopener noreferrer">
+                        <h4>OMS actuo tarde ante covid-19; devemos fortalecerla:</h4>
+                    </a>
+                </td>
+
+            </tr>
+            <tr>
+                <td width="10%"><img src="images/img7.jpg" alt="" srcset="" width="100%" height="150px"> </td>
+                <td>
+                    <p class="tiempo"> <b class="nacional">NACIONAL</b> | Hace 20 minutos</p>
+                    <a href="https://mty.telediario.mx/tras-los-famosos/se-unen-para-apoyar-pompo-de-los-payasonicos"
+                        target="_blank" rel="noopener noreferrer">
+                        <h4>Se unen para apoyar a Pompo de los payasonicos</h4>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4">
+                    <img src="images/img8.png" alt="" srcset="" width="100%">
+                    <hr>
+                </td>
+
+
+
+            </tr>
+            <tr>
+                <td colspan="2" rowspan="6">
+                    <img src="images/img5.jpg" alt="" srcset="" width="100%" height="70%">
+                    <p class="tiempo"> <b class="nacional">NACIONAL</b> | Hace 17 minutos</p>
+                    <a href="https://mty.telediario.mx/nacional/oms-actuo-tarde-ante-covid-19-debemos-fortalecerla-embajador-de-mexico-ante-la-onu"
+                        target="_blank" rel="noopener noreferrer">
+                        <h3>OMS actuó tarde ante COVID-19; debemos fortalecerla: Embajador de México ante la ONU</h3>
+                    </a>
+                    <p>Dijo que epidemias como la del covid-19 y otras más, se repetirán y éstas representan un riesgo
+                        sanitario por la mutación de los virus.</p>
+                </td>
+
+            </tr>
+            <tr>
+                <td width="10%"><img src="images/img6.jpg" alt="" srcset="" width="100%" height="150px"> </td>
+                <td>
+                    <p class="tiempo"> <b class="nacional">NACIONAL</b> | Hace 20 minutos</p>
+                    <a href="https://mty.telediario.mx/nacional/reportan-brote-de-covid-19-en-policia-y-ayuntamiento-de-acapulco"
+                        target="_blank" rel="noopener noreferrer">
+                        <h4>Reportan brote de covid-19 en Policia y ayuntamiento</h4>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+
+                <td width="10%"><img src="images/img9.jpg" alt="" srcset="" width="100%" height="150px"> </td>
+                <td>
+                    <p class="tiempo"> <b class="ligamx">LIGA MX</b> | Hace 20 minutos </p>
+                    <a href="https://www.multimedios.com/deportes/liga-mx/funes-mori-se-hara-pruebas-el-viernes"
+                        target="_blank" rel="noopener noreferrer">
+                        <h4>Funes Mori se hara pruebas el viernes</h4>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+
+                <td width="10%"><img src="images/img11.jpeg" alt="" srcset="" width="100%" height="150px"> </td>
+                <td>
+                    <p class="tiempo"> <b class="nacional">NACIONAL</b> | Hace 20 minutos</p>
+                    <a href="https://www.multimedios.com/nacional/gobernador-de-queretaro-dona-plasma-para-combatir-coronavirus"
+                        target="_blank" rel="noopener noreferrer">
+                        <h4>Gobernador de Queretaro dona plasma para combatir coronavirus</h4>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td width="10%"><img src="images/img12.jpg" alt="" srcset="" width="100%" height="150px"> </td>
+                <td>
+                    <p class="tiempo"> <b class="nacional">NACIONAL</b> | Hace 20 minutos</p>
+                    <a href="https://www.multimedios.com/nacional/sep-integrara-orientacion-socioemocional-en-el-proximo-ciclo-escolar"
+                        target="_blank" rel="noopener noreferrer">
+                        <h4>SEP integrara orientacion socioemocional en el proximo ciclo escolar</h4>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td width="10%"><img src="images/img13.jpg" alt="" srcset="" width="100%" height="150px"> </td>
+                <td>
+                    <p class="tiempo"> <b class="internacional">INTERNACIONAL</b> |Hace 20 minutos </p>
+
+                    <a href="https://www.multimedios.com/internacional/flexibiliza-cuba-restricciones-por-covid-19"
+                        target="_blank" rel="noopener noreferrer">
+                        <h4>Flexibiliza cuba restricciones por COVID-19</h4>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4">
+                    <img src="images/img10.png" alt="" srcset="" width="100%">
+                </td>
+
+            </tr>
+        </tbody>
+    </table>
+    <!-- ****************************  FIN DE TABLA **********************************************-->
+
+</body>
+
+</html>
