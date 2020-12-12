@@ -1,0 +1,41 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.LE {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+
+}
+
+p {
+    text-align: justify;
+}
+
+h5 {
+    text-align: center;
+}
+
+.bg-nav {
+    background-color: #43A1C5;
+}
+
+.ntd {
+    list-style: none;
+}
+
+.btn-a {
+    text-decoration: none !important;
+    color: white !important;
+}
+
+.btn-aside{
+    text-decoration: none !important;
+    color:  gray !important;
+}
+
+.btn-footer{
+    text-decoration: none !important;
+    color: gray !important;
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo 9</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <script>
+        function ObtenerDatos() {
+            //Cancelar el evento este es cancelable sin detener el resto del funcionamiento, es decir que puede ser llamado de nuevo.
+
+
+            event.preventDefault()
+
+            var Datos = new Array();
+
+            var Nombre = document.getElementById('Nombre').value;
+            var Paterno = document.getElementById('Paterno').value;
+            var Materno = document.getElementById('Materno').value;
+            var Numero = document.getElementById('Numero').value;
+
+            Datos.push(Nombre);
+            Datos.push(Paterno);
+            Datos.push(Materno);
+            Datos.push(Numero);
+            /*          
+            console.log(Nombre);
+            console.log(Paterno);
+            console.log(Materno);
+            console.log(Numero); 
+            */
+
+            var Registro = document.getElementById('Registro');
+            Registro.innerHTML += "Nombre: <b>" + Datos[0] + "</b><br>";
+            Registro.innerHTML += "Apellido Paterno: <b>" + Datos[1] + "</b><br>";
+            Registro.innerHTML += "Apellido Materno: <b>" + Datos[2] + "</b><br>";
+            Registro.innerHTML += "Número favorito: <b>" + Datos[3] + "</b><br><hr>";
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Ejemplo 9</h1>
+    <hr>
+    <a href="index.html">Inicio</a>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-body">
+                        <form action="">
+                            <h2>Datos del usuario</h2>
+                            <div class="form-group">
+                                <label for="Nombre">Nombre:</label>
+                                <input class="form-control" type="text" id="Nombre"
+                                    placeholder="Ingresa el nombre del usuario">
+                            </div>
+                            <div class="form-group">
+                                <label for="Paterno">Apellido Paterno:</label>
+                                <input class="form-control" type="text" id="Paterno"
+                                    placeholder="Ingresa el apellido paterno del usuario">
+                            </div>
+                            <div class="form-group">
+                                <label for="Materno">Apellido Materno:</label>
+                                <input class="form-control" type="text" id="Materno"
+                                    placeholder="Ingresa el apellido materno del usuario">
+                            </div>
+                            <div class="form-group">
+                                <label for="Numero">Numero favorito:</label>
+                                <input class="form-control" type="text" id="Numero"
+                                    placeholder="Ingresa el npumero favorito del usuario">
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" value="Registrar" class="btn btn-outline-primary btn-block"
+                                    onclick="ObtenerDatos()">Registrar</button>
+                                <input type="reset" value="Borrar" class="btn btn-outline-danger btn-block">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h2>Lista de Usuarios</h2>
+                        <section id="Registro"></section>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad 3</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!--Referencia de archivos de scripts  -->
+    <script src="js/MiLibreria.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Actividad 3</h1>
+        <p>Crear un formulario que permita cargar un nombre y un apellido , en un tercer input mostrar los valores
+            concatenados <br>
+            input1: Jorge <br>
+            input2: Garcia <br>
+            input3: Jorge Garcia -> GetElementById("input3".value)
+        </p>
+        <section id="Alerta"></section>
+        <form action="">
+            <label for="NombreUsuario">Ingrese su nombre:</label>
+            <input type="text" name="NombreUsuario" id="NombreUsuario"> <br>
+            <label for="Apellido">Ingrese su Apellido</label>
+            <input type="text" name="Apellido" id="Apellido"> <br>
+            <input type="button" value="Confirmar" onclick="MostrarInfo()"> <br>
+            <label for="">Los datos ingresados fueron:</label>
+            <input type="text" name="Datos" id="Datos" value=""> <br>
+        </form>
+    </div>
+</body>
+
+</html>

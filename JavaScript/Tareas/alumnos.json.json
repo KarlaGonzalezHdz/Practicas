@@ -1,0 +1,69 @@
+[
+    {
+        "nombre":"Jorge Adán García Ramos",
+        "estado":"En el trabajo",
+        "profesion":"Desarrollador de software",
+        "imagen": "https://cdn1.vectorstock.com/i/1000x1000/16/05/male-avatar-profile-picture-silhouette-light-vector-5351605.jpg"
+    },
+    {
+        "nombre":"Juana Martha Gomez Velazquez",
+        "estado":"En home-office",
+        "profesion":"Senior de Proyectos",
+        "imagen":"https://cdn5.vectorstock.com/i/thumb-large/46/44/person-gray-photo-placeholder-woman-vector-22964644.jpg"
+    },
+    {
+        "nombre": "Angel Mario Armendariz Lumbreras",
+        "estado": "Descansando",
+        "profesion": "Soporte Tecnico",
+        "imagen": "https://cdn1.vectorstock.com/i/1000x1000/16/05/male-avatar-profile-picture-silhouette-light-vector-5351605.jpg"
+
+    },
+    {
+        "nombre": "Asaf Eliam Aguilar Ramírez",
+        "estado": "En clase ",
+        "profesion": "Ah, estudiante",
+        "imagen": "https://cdn1.vectorstock.com/i/1000x1000/16/05/male-avatar-profile-picture-silhouette-light-vector-5351605.jpg"
+    },
+    {
+        "nombre": "Salma Lizbeth Salazar Martínez",
+        "estado": "En clase",
+        "profesion": "Estudiante",
+        "imagen": "https://cdn5.vectorstock.com/i/thumb-large/46/44/person-gray-photo-placeholder-woman-vector-22964644.jpg"
+    },
+    {
+        "nombre": "Karla Josefina Gonzalez Hernandez",
+        "estado": "En cuarentena",
+        "profesion": "Estudiante",
+        "imagen": "https://cdn5.vectorstock.com/i/thumb-large/46/44/person-gray-photo-placeholder-woman-vector-22964644.jpg"
+    },
+    {
+        "nombre": "Miguel Angel Garza Narvaez",
+        "estado": "En el curso",
+        "profesion": "Estudiante",
+        "imagen": "https://cdn1.vectorstock.com/i/1000x1000/16/05/male-avatar-profile-picture-silhouette-light-vector-5351605.jpg"
+    },
+    {
+        "nombre": "Brenda Lizeth Rodriguez Salas",
+        "estado": "En clase",
+        "profesion": "Estudiante",
+        "imagen": "https://cdn5.vectorstock.com/i/thumb-large/46/44/person-gray-photo-placeholder-woman-vector-22964644.jpg"
+    },
+    {
+        "nombre": "Braulio Antonio De La Garza Garcia",
+        "estado": "En la escuela",
+        "profesion": "Estudiante",
+        "imagen": "https://cdn1.vectorstock.com/i/1000x1000/16/05/male-avatar-profile-picture-silhouette-light-vector-5351605.jpg"
+    },
+    {
+        "nombre": "Iván Fernando Jiménez Rodríguez",
+        "estado": "En clase",
+        "profesion": "Estudiante",
+        "imagen": "https://cdn1.vectorstock.com/i/1000x1000/16/05/male-avatar-profile-picture-silhouette-light-vector-5351605.jpg"
+    },
+    {
+        "nombre": "Juan Pablo Villanueva Pámanes",
+        "estado": "Dormido",
+        "profesion": "Estudiante",
+        "imagen": "https://cdn1.vectorstock.com/i/1000x1000/16/05/male-avatar-profile-picture-silhouette-light-vector-5351605.jpg"
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "titulo": "ADMISION",
+        "descripcion": "En la admisión a tratamiento manejamos nuestro modelo de atención:Valoración y entrevista de Ingreso,Información, orientación o intervención, de acuerdo a la necesidad de cada familia ,Diagnóstico Integral y Atención Personalizada.",
+        "actualizacion":"Hace 3 horas",
+        "imagenUrl": "https://i.ytimg.com/vi/YhlzXYFRRak/maxresdefault.jpg"
+
+    },{
+        "titulo": "DESINTOXICACION",
+        "descripcion": "El paciente permanece bajo cuidados médicos las 24 horas del día, supervisado por especialistas en medicina adictiva. Incluye: Valoración, Diagnóstico, Desintoxicación, Laboratoriales y comorbilidad física y mental.",
+        "actualizacion":"Hace 4 horas",
+        "imagenUrl": "https://www.clinitalia.com/novedades/wp-content/uploads/2019/05/centros-de-rehabilitacion-para-drogadictos-en-lima-1024x640.jpeg"
+        
+    },
+    {
+        "titulo": "PROGRAMA TERAPEUTICO PERSONALIZADO",
+        "descripcion": "Diseñamos un plan de Tratamiento Personalizado basándonos en el historial individual, emocional y mental de cada paciente. El paciente se integra a diversas actividades: Pláticas médicas, Terapia individual, Terapia grupal, Conferencias, Talleres, Sesiones de Cine Debate, Manejo de Salud Mental, Gestión Emocional, Manejo y control de la Ira, Dinámicas de integración grupal, Técnicas para manejo adecuado de tiempo libre, Tours recreativos extramuros, Kayak-terapia, Actividades deportivas, Espiritualidad e Inducción e Integración al programa de Doce Pasos de A.A/N.A.",
+        "actualizacion":"hace 1 semana",
+        "imagenUrl": "http://www.revmultimed.sld.cu/public/journals/1/cover_article_552_es_ES.jpg"
+        
+    }
+]

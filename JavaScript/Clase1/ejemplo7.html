@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo 7</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <style>
+        #CajaDeColores {
+            width: 400px;
+            height: 300px;
+            background-color: darkcyan;
+            margin-top: 20px;
+            color: #7e7e85;
+        }
+    </style>
+
+    <script>
+        function Estilo(Color) {
+            document.getElementById('CajaDeColores').style.background = Color;
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Ejemplo 7</h1>
+    <hr>
+    <a href="index.html">Inicio</a>
+    <br>
+    <button type="button" class="btn btn-outline-primary" onclick="Estilo('#00b1f6')">Primary</button>
+    <button type="button" class="btn btn-outline-secondary" onclick="Estilo('#c7c7c7')">Secondary</button>
+    <button type="button" class="btn btn-outline-success" onclick="Estilo('#008f24')">Success</button>
+    <button type="button" class="btn btn-outline-danger" onclick="Estilo('#ff0000')">Danger</button>
+    <button type="button" class="btn btn-outline-warning" onclick="Estilo('#ffd900')">Warning</button>
+    <button type="button" class="btn btn-outline-info" onclick="Estilo('#00c0b6')">Info</button>
+    <button type="button" class="btn btn-outline-light" onclick="Estilo('#ebebeb')">Light</button>
+    <button type="button" class="btn btn-outline-dark" onclick="Estilo('#000000')">Dark</button>
+    <section id="CajaDeColores">
+
+    </section>
+</body>
+
+</html>

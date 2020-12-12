@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo 10</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script>
+        function Validar(){
+            event.preventDefault();
+ 
+            //Obtencion de datos - Entradas
+            var Nombre = document.getElementById("Nombre").value;
+            var Correo = document.getElementById("Correo").value;
+            var Contraseña = document.getElementById("Contraseña").value;
+            var Confirmacion = document.getElementById("Confirmacion").value;
+            
+            //Procesamiento de datos - Procesos
+            if(Contraseña == Confirmacion){
+                //alert("Las contraseñas coinciden!");
+                Menssage("Las contraseñas coinciden!", 1)
+            }
+            else{
+                //alert("Las contraseñas no coinciden.");
+                Menssage("Las contraseñas no coinciden.", 2)
+            }
+ 
+            //Resultados - Salidas
+            console.log(Nombre);
+            console.log(Correo);
+            console.log(Contraseña);
+            console.log(Confirmacion);
+        }
+ 
+        function Menssage(Mensaje, Tipo)
+        {
+            var Seccion = document.getElementById("Alerta");
+            Seccion.style.display = "block";
+            if(Tipo == 1) //Esto es un mensaje satisfactorio (Verde)
+            {
+                Seccion.innerHTML = '<div class="alert alert-success" role="alert">' + Mensaje + '</div>';
+            }
+            if(Tipo == 2) //Esto es un mensaje no satisfactorio (Rojo)
+            {
+                Seccion.innerHTML = '<div class="alert alert-danger" role="alert">' + Mensaje + '</div>';
+            }
+ 
+            setTimeout(
+                function(){
+                    Seccion.style.display = "none";
+                }, 2000);
+        }
+    </script>
+</head>
+<body>
+    <h1>Ejemplo 10</h1>
+    <hr>
+    <a href="index.html">Inicio</a>
+    <br>
+    <div class="container">
+        <section id="Alerta" style="display: none;">
+            texto de prueba
+        </section>
+        <br>
+    
+        <div class="card">
+            <div class="card-body">
+                <form action="">
+                    <h2>Registro del sistema</h2>
+            
+                    <label for="Nombre">Nombre de usuario</label><br>
+                    <input class="form-control form-control-sm" type="text" id="Nombre" required><br>
+            
+                    <label for="Correo">Correo personal</label><br>
+                    <input class="form-control form-control-sm" type="email" id="Correo" required><br>
+                    
+                    <label for="Contraseña">Contraseña</label><br>
+                    <input class="form-control form-control-sm" type="password" id="Contraseña" required><br>
+                    
+                    <label for="Confirmacion">Confirmación de contraseña</label><br>
+                    <input class="form-control form-control-sm" type="password" id="Confirmacion" required><br>
+                    
+                    <br>
+                    <button class="btn btn-outline-success btn-sm" type="submit" onclick="Validar()">Registrar</button>
+                    <br><br>
+                    <button class="btn btn-outline-primary btn-sm" type="reset">Limpiar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

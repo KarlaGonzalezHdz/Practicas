@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla Dinamica</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="js/tabladinamica.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Registro</h1>
+        <hr>
+        <table class="table table-hover" id="Data_Table">
+            <thead>
+                <tr>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Ciudad</th>
+                    <th scope="col">Edad</th>
+                    <th scope="col">Acciones</th>
+                </tr>
+            </thead>
+            <tr>
+                <td><input type="text" id="New_Name" placeholder="Nombre de usuario" class="form-control"/></td>
+                <td><input type="text" id="New_City" placeholder="Ciudad actual" class="form-control"/></td>
+                <td><input type="text" id="New_Age" placeholder="Edad" class="form-control"/></td>
+                <td><input type="button" onclick="Add_Row();" value="Añadir registro" class="btn btn-outline-primary btn-sm"/></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
+ 

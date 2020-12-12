@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clase 4 | Canvas</title>
+    <link rel="stylesheet" href="css/estilo.css">
+
+</head>
+
+<body>
+    <h1>Ejemplo 1</h1>
+    <canvas id="MyCanvas">
+        Tu navegador no soporta CANVAS
+    </canvas>
+
+    <Script>
+        var canvas = document.getElementById("MyCanvas");
+        var Rectangulo = canvas.getContext('2d');
+        Rectangulo.fillStyle = "red";
+        Rectangulo.fillRect(120, 50, 50, 70);
+
+        var Rectangulo2 = canvas.getContext('2d');
+        Rectangulo2.fillStyle = "blue";
+        Rectangulo2.fillRect(60, 40, 100, 50);
+    </Script>
+    <hr>
+    <h2>Ejemplo 2</h2>
+    <Canvas id="MyCanvas2">
+        Tu navegador no soporta CANVAS
+    </Canvas>
+    <script>
+        var canvas = document.getElementById("MyCanvas");
+        var canvas2 = document.getElementById("MyCanvas2");
+        var Rectangulo = canvas.getContext('2d');
+        Rectangulo.fillStyle = "rgb(200,0,0)";
+        Rectangulo.fillRect(10, 10, 55, 50);
+
+        var Rectangulo2 = canvas.getContext('2d');
+        Rectangulo2.fillStyle = "rgba(0,0,200,0.5)";
+        Rectangulo2.fillRect(30, 30, 55, 50);
+
+        var Emoji = canvas2.getContext('2d');
+        Emoji.beginPath();
+        Emoji.arc(75, 75, 50, 0, Math.PI * 2, true); //circulo externo
+        Emoji.moveTo(110, 75);
+        Emoji.arc(75, 75, 35, 0, Math.PI, false); //Boca del emoji.
+        Emoji.moveTo(65, 65);
+        Emoji.arc(60, 65, 5, 0, Math.PI * 2, true); // Ojo Izquierdo
+        Emoji.moveTo(95, 65);
+        Emoji.arc(90, 65, 5, 0, Math.PI * 2, true); //Ojo Derecho
+        Emoji.stroke();
+    </script>
+    <hr>
+    <h2>Ejemplo 3</h2>
+    <button onclick="Abrir()">Abrir</button>
+    <section id="Ventana">
+        <section>
+            <h1>Aceptar reglas de uso</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nihil commodi voluptate doloremque numquam cumque animi? A nam sint atque expedita quisquam, ducimus labore hic ea voluptates error nihil facilis.</p>
+        <button onclick="Cerrar()">Cerrar</button> 
+        </section>
+       
+    </section>
+    <script>
+        function Abrir(){
+            document.getElementById('Ventana').style.display = "block"
+
+        }
+        function Cerrar(){
+            document.getElementById('Ventana').style.display = "none";
+
+        }
+        
+    </script>
+</body>
+
+</html>

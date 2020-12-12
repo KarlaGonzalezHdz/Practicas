@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript | GetData</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="http://desarrollo.georsoft.mx/Modulo4JS/style.css">
+    <script src="http://desarrollo.georsoft.mx/Modulo4JS/evaluar.js"></script>
+</head>
+<script>
+    var Modulo = "";
+    var Nombre = "";
+    var Correo = "";
+    function Ejecutar()
+    {
+        ObtenerDatos();
+        ProcesarDatos();
+        OcultarFormulario();
+        MostrarDatos();
+        Evaluar();
+    }
+
+    function ObtenerDatos()
+    {
+        //1. Obtener en base al ID de los elementos del formulario los datos para Modulo, Nombre y Correo.
+        Modulo = document.getElementById('Modulo').value;
+        Nombre = document.getElementById('Nombre').value;
+        Correo = document.getElementById('Correo').value;
+      
+    }
+
+    function ProcesarDatos()
+    {
+        //2. Retorna los valores capturados en Modulo, Nombre y Correo a los elementos Modulo_Result, Nombre_Result y Correo_Result.
+        document.getElementById('Modulo_Result').innerHTML =document.getElementById('Modulo').value ;
+        document.getElementById('Nombre_Result').innerHTML= document.getElementById('Nombre').value;
+         document.getElementById('Correo_Result').innerHTML = document.getElementById('Correo').value; 
+    }
+
+    function OcultarFormulario()
+    {
+        //3. Modifica el estilo aplicando la propiedad display del Elemento con el ID llamado Formulario con el valor "none" para ocultarlo del documento.
+             document.getElementById('Formulario').style.display = "none";  
+            
+    }
+
+    function MostrarDatos()
+    {
+        //4. Cambia el valor de la propiedad hidde de false a true para mostrar el elemento con ID Result
+       document.getElementById('Result').hidden = false; 
+        
+    }
+</script>
+<body>
+    <div class="container">
+        <h1>Examen módulo 4</h1>
+        <form id="Formulario">
+            <div class="form-group">
+                <label for="Modulo">Selecciona tu Modulo</label>
+                <select class="form-control" id="Modulo">
+                    <option value="1">Módulo 1</option>
+                    <option value="2">Módulo 2</option>
+                    <option value="3">Módulo 3</option>
+                    <option value="4">Módulo 4</option>
+                    <option value="5">Módulo 5</option>
+                    <option value="6">Módulo 6</option>
+                    <option value="7">Módulo 7</option>
+                    <option value="8">Módulo 8</option>
+                    <option value="9">Módulo 9</option>
+                    <option value="10">Módulo 10</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="Modulo">Ingresa tu nombre</label>
+                <input class="form-control" type="text" id="Nombre" placeholder="Ingresa tu nombre completo">
+            </div>
+            <div class="form-group">
+                <label for="Modulo">Ingresa tu correo</label>
+                <input class="form-control" type="email" id="Correo" placeholder="Ingresa tu correo electronico">
+            </div>
+            <button class="btn btn-outline-primary" type="submit" onclick="Ejecutar()">Capturar datos</button>
+        </form>
+        <div id="Result" hidden>
+            <h1>Resultado</h1>
+            <hr>
+            El alumno cursa el módulo numero: <b id="Modulo_Result"></b><br>
+            Nombre del alumno: <b id="Nombre_Result"></b><br>
+            Correo del alumno: <b id="Correo_Result"></b><br>
+            <hr>
+        </div>
+        Progreso de la solución: <b id="Evaluacion_Result">0</b> de 100
+        <div id="myProgress">
+            <div id="myBar"></div>
+        </div>
+    </div>
+</body>
+</html><html><head><META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8"><meta name="Robots" content="NOINDEX " /></head><body></body>
+                <script type="text/javascript">
+                 var gearPage = document.getElementById('GearPage');
+                 if(null != gearPage)
+                 {
+                     gearPage.parentNode.removeChild(gearPage);
+                     document.title = "Error";
+                 }
+                 </script>
+                 </html>

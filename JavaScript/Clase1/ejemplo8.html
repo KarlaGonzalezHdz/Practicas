@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo 8</title>
+    <style>
+        #CajaDeColores
+        {
+            width: 400px;
+            height: 300px;
+            background-color: darkcyan;
+            margin-top: 20px;
+            color: #7e7e85;
+        }
+    </style>
+    <script>
+        function MostrarOcultar(){
+            var Btn = document.getElementById('boton');
+            if(Btn.value == "Mostrar")
+            {
+                Mostrar();
+                Btn.value = "Ocultar";
+            }
+            else
+            {
+                Ocultar();
+                Btn.value = "Mostrar";
+            }
+
+        }  
+        
+        function Mostrar()
+            {
+                document.getElementById('CajaDeColores').style.display = "block";
+            }
+
+        function Ocultar()
+            {
+                document.getElementById('CajaDeColores').style.display = "none";
+            }
+
+    </script>
+</head>
+<body>
+    <h1>Ejemplo 8</h1>
+    <hr>
+    <a href="index.html">Inicio</a> <br>
+    <input type="submit" Onclick="MostrarOcultar()"  value="Ocultar" id="boton"/>
+   <section id="CajaDeColores">
+
+   </section>
+</body>
+</html>
