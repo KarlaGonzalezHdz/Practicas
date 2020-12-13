@@ -1,0 +1,112 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Layout.master.vb" Inherits="Rehabilitacion.Layout" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Rehabilitacion</title>
+    <link rel="icon" href="../images/favicon.png" type="image/png">
+    <link href="../css/style.css" rel="stylesheet" />
+    <link href="../css/bootstrap.min.css" rel="stylesheet" />
+    <script src="../js/jquery-3.5.1.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+            <a class="navbar-brand " href="../index.aspx">
+                <img src="../images/favicon.png" alt="logo de la aplicacion" width="40" height="40" />
+                Rehabilitación
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto mx-auto mt-3 ">
+                    <li class="nav-item">
+                        <p><a class="nav-link  " href="../index.aspx">Inicio </a></p>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="nosotros.aspx">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="Programas.aspx">Programas y talleres</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="Galeria.aspx">Galeria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Tratamiento.aspx">Tratamiento</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Historias.aspx">Historias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Contacto.aspx">Contacto</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-info my-2 my-sm-0 " type="submit">Buscar</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+
+    <footer class="navbar-light" style="background-color: #e3f2fd;">
+        <div class="row">
+            <div class="col-lg-3  text-center ">
+                <div class="text-center mt-5">
+                    <a href="http://facebook.com"><img class="mr-5" src="../images/img13.png" alt=""  width="50px" height="50px"/></a> <br><br>
+                    <a href="http://instagram.com"><img class="mr-5 " src="../images/img14.png" alt="" srcset=""
+                            width="50px" height="50px"></a> <br><br>
+                    <a href="http://twitter.com"><img class="mr-5 " src="../images/img15.png" alt="" srcset="" width="40px"
+                            height="40px"></a> <br><br>
+                </div>
+
+
+            </div>
+            <div class="col-lg-3">
+                <div class="text-center mt-5">
+                    <a class="btn-footer" href="../index.aspx">Inicio</a><br><br>
+                    <a class="btn-footer" href="nosotros.aspx">Nosotros</a><br><br>
+                    <a class="btn-footer" href="contacto.aspx">Involucrate</a><br><br>
+                    <a class="btn-footer" href="Programas.aspx">programas</a><br><br>
+                    <a class="btn-footer" href="Galeria.aspx">Galeria</a><br> <br>
+                </div>
+
+            </div>
+            <div class="col-lg-3 ">
+                <div class="text-center mt-5">
+                    <a class="btn-footer" href="Contacto.aspx">Contacto</a><br><br>
+                    <a class="btn-footer" href="Tratamiento.aspx">Tratamiento</a><br><br>
+                    <a class="btn-footer" href="Versiones.aspx">Versiones</a><br> <br>
+                </div>
+
+            </div>
+            <div class="col-lg-3">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3594.378189770176!2d-100.31560468500084!3d25.725004116396907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86629452551ea79f%3A0x66e03550ec5730cb!2sFacultad%20de%20Ingenier%C3%ADa%20Mec%C3%A1nica%20y%20El%C3%A9ctrica!5e0!3m2!1ses!2smx!4v1593386642063!5m2!1ses!2smx"
+                    class="text-center" width="90%" height="100%" frameborder="0" style="border:0;" allowfullscreen=""
+                    aria-hidden="false" tabindex="0"></iframe>
+            </div>
+        </div>
+        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+            <a href="index.html"> Karla Josefina Gonzalez Hernandez | Modulo 7 Visual Basic | 8076168 | Educación
+                Continua</a>
+        </div>
+    </footer>
+</body>
+</html>

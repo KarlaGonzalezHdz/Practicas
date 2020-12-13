@@ -1,0 +1,16 @@
+C:\Users\LENOVO\Desktop\KJGH\TDW\Modulo6\Clase1\2.ClaseEntreSemana1-2\Modulo6\Modulo6_Escritorio\bin\Debug\Modulo6_Escritorio.exe.config
+C:\Users\LENOVO\Desktop\KJGH\TDW\Modulo6\Clase1\2.ClaseEntreSemana1-2\Modulo6\Modulo6_Escritorio\bin\Debug\Modulo6_Escritorio.exe
+C:\Users\LENOVO\Desktop\KJGH\TDW\Modulo6\Clase1\2.ClaseEntreSemana1-2\Modulo6\Modulo6_Escritorio\bin\Debug\Modulo6_Escritorio.pdb
+C:\Users\LENOVO\Desktop\KJGH\TDW\Modulo6\Clase1\2.ClaseEntreSemana1-2\Modulo6\Modulo6_Escritorio\bin\Debug\Modulo6_Escritorio.xml
+C:\Users\LENOVO\Desktop\KJGH\TDW\Modulo6\Clase1\2.ClaseEntreSemana1-2\Modulo6\Modulo6_Escritorio\obj\Debug\Modulo6_Escritorio.vbprojAssemblyReference.cache
+C:\Users\LENOVO\Desktop\KJGH\TDW\Modulo6\Clase1\2.ClaseEntreSemana1-2\Modulo6\Modulo6_Escritorio\obj\Debug\Modulo6_Escritorio.Resources.resources
+C:\Users\LENOVO\Desktop\KJGH\TDW\Modulo6\Clase1\2.ClaseEntreSemana1-2\Modulo6\Modulo6_Escritorio\obj\Debug\Modulo6_Escritorio.vbproj.GenerateResource.cache
+C:\Users\LENOVO\Desktop\KJGH\TDW\Modulo6\Clase1\2.ClaseEntreSemana1-2\Modulo6\Modulo6_Escritorio\obj\Debug\Modulo6_Escritorio.vbproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Desktop\KJGH\TDW\Modulo6\Clase1\2.ClaseEntreSemana1-2\Modulo6\Modulo6_Escritorio\obj\Debug\Modulo6_Escritorio.exe
+C:\Users\LENOVO\Desktop\KJGH\TDW\Modulo6\Clase1\2.ClaseEntreSemana1-2\Modulo6\Modulo6_Escritorio\obj\Debug\Modulo6_Escritorio.xml
+C:\Users\LENOVO\Desktop\KJGH\TDW\Modulo6\Clase1\2.ClaseEntreSemana1-2\Modulo6\Modulo6_Escritorio\obj\Debug\Modulo6_Escritorio.pdb
+C:\Users\LENOVO\Desktop\KJGH\TDW\Modulo6\Clase1\2.ClaseEntreSemana1-2\Modulo6\Modulo6_Escritorio\bin\Debug\Modulo6_Biblioteca.dll
+C:\Users\LENOVO\Desktop\KJGH\TDW\Modulo6\Clase1\2.ClaseEntreSemana1-2\Modulo6\Modulo6_Escritorio\bin\Debug\Modulo6_Biblioteca.pdb
+C:\Users\LENOVO\Desktop\KJGH\TDW\Modulo6\Clase1\2.ClaseEntreSemana1-2\Modulo6\Modulo6_Escritorio\bin\Debug\Modulo6_Biblioteca.xml
+C:\Users\LENOVO\Desktop\KJGH\TDW\Modulo6\Clase1\2.ClaseEntreSemana1-2\Modulo6\Modulo6_Escritorio\obj\Debug\Modulo6_Escritorio.Form1.resources
+C:\Users\LENOVO\Desktop\KJGH\TDW\Modulo6\Clase1\2.ClaseEntreSemana1-2\Modulo6\Modulo6_Escritorio\obj\Debug\Modulo6_Escritorio.vbproj.CopyComplete

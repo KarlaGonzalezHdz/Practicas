@@ -1,0 +1,15 @@
+C:\Users\LENOVO\Desktop\KJGH\TDW\Modulo6\Clase1\Modulo6\Modulo6\bin\Debug\Modulo6.exe.config
+C:\Users\LENOVO\Desktop\KJGH\TDW\Modulo6\Clase1\Modulo6\Modulo6\bin\Debug\Modulo6.exe
+C:\Users\LENOVO\Desktop\KJGH\TDW\Modulo6\Clase1\Modulo6\Modulo6\bin\Debug\Modulo6.pdb
+C:\Users\LENOVO\Desktop\KJGH\TDW\Modulo6\Clase1\Modulo6\Modulo6\bin\Debug\Modulo6.xml
+C:\Users\LENOVO\Desktop\KJGH\TDW\Modulo6\Clase1\Modulo6\Modulo6\bin\Debug\Modulo6_Biblioteca.dll
+C:\Users\LENOVO\Desktop\KJGH\TDW\Modulo6\Clase1\Modulo6\Modulo6\bin\Debug\Modulo6_Biblioteca.pdb
+C:\Users\LENOVO\Desktop\KJGH\TDW\Modulo6\Clase1\Modulo6\Modulo6\bin\Debug\Modulo6_Biblioteca.xml
+C:\Users\LENOVO\Desktop\KJGH\TDW\Modulo6\Clase1\Modulo6\Modulo6\obj\Debug\Modulo6_Consola.vbprojAssemblyReference.cache
+C:\Users\LENOVO\Desktop\KJGH\TDW\Modulo6\Clase1\Modulo6\Modulo6\obj\Debug\Modulo6.Resources.resources
+C:\Users\LENOVO\Desktop\KJGH\TDW\Modulo6\Clase1\Modulo6\Modulo6\obj\Debug\Modulo6_Consola.vbproj.GenerateResource.cache
+C:\Users\LENOVO\Desktop\KJGH\TDW\Modulo6\Clase1\Modulo6\Modulo6\obj\Debug\Modulo6_Consola.vbproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Desktop\KJGH\TDW\Modulo6\Clase1\Modulo6\Modulo6\obj\Debug\Modulo6_Consola.vbproj.CopyComplete
+C:\Users\LENOVO\Desktop\KJGH\TDW\Modulo6\Clase1\Modulo6\Modulo6\obj\Debug\Modulo6.exe
+C:\Users\LENOVO\Desktop\KJGH\TDW\Modulo6\Clase1\Modulo6\Modulo6\obj\Debug\Modulo6.xml
+C:\Users\LENOVO\Desktop\KJGH\TDW\Modulo6\Clase1\Modulo6\Modulo6\obj\Debug\Modulo6.pdb
