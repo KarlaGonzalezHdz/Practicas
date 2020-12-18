@@ -24,13 +24,14 @@
             <h4>RESTABLECER CONTRASEÑA</h4>
             </br>
             <label>CORREO</label> <br>
+            <label>Ingresa tu correo registrado para enviarte tu contraseña.</label>
             <input type="text" id="email" name="email" class="form-control input-sm chat-input"
               placeholder="Ingresa tu correo" />
             </br></br>
             <div class="wrapper">
               <span class="group-btn">
                 <input type="submit" name="submit" class="btn btn-info btn-md" value="Restablecer"
-                  onclick="form.action='validar.php'"><br><br>
+                  onclick="form.action='restablecer.php'"><br><br>
             </div>
             <div id=" wrapperregister-link" class="text-right">
               <a href="login.php" class="" style="color:white;"><span>Iniciar Sesion</span></a> <br><br><br><br>

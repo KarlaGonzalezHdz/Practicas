@@ -10,7 +10,7 @@
        ob_start();
        header("refresh:5, url=registrar.php");
       ob_end_flush();
-}
+
     }else{
         if($_POST['pass'] == $_POST['confpass']){
 

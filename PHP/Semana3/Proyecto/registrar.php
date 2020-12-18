@@ -38,11 +38,11 @@
               placeholder="Ingresa tu correo" />
             </br></br>
             <label>CONTRASEÑA</label> <br>
-            <input type="pass" id="userPassword" name="pass" class="form-control input-sm chat-input"
+            <input type="password" id="userPassword" name="pass" class="form-control input-sm chat-input"
               placeholder="Ingresa tu contraseña" />
             </br></br>
             <label>CONFIRMACIÓN DE CONTRASEÑA</label> <br>
-            <input type="text" id="confpass" name="confpass" class="form-control input-sm chat-input"
+            <input type="password" id="confpass" name="confpass" class="form-control input-sm chat-input"
               placeholder="Ingresa tu correo" />
             </br></br>
             <div class="wrapper">
