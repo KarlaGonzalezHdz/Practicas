@@ -109,7 +109,7 @@
                             echo "<td>$arreglo2[4]</td>";
                             echo "<td>$arreglo2[5]</td>";
                             echo "<td>$arreglo2[6]</td>";
-                            echo "<td><a href='actualizar.php?folio=$arreglo2[0]'><img src='images/editar.ico' width='20%' ></a></td>";
+                            echo "<td><a href='actualizarProducto.php?folio=$arreglo2[0]'><img src='images/editar.ico' width='20%' ></a></td>";
                             echo "<td><a href='admin.php?folio=$arreglo2[0]&idborrar2=2'><img src='images/borrar.ico' width='20%' ></a></td>";
                             echo "</tr>";
                         }

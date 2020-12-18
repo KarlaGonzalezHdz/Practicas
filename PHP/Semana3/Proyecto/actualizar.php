@@ -13,7 +13,7 @@
         </header>
     </div>
     <div>
-        <h4>Edicion de usuatios </h4>
+        <h4>Edicion de usuarios</h4>
         <div>
             <?php
             extract($_GET);
